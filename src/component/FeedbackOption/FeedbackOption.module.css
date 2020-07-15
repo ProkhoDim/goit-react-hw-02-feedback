@@ -1,0 +1,27 @@
+.feedbackButton {
+  background-color: #fff;
+  padding: 5px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(185, 185, 185);
+  cursor: pointer;
+  outline: none;
+}
+
+.feedbackButton:hover {
+  color: #fff;
+  transform: scale(1.4);
+  font-weight: 500;
+}
+
+.goodFeedbackBtn:hover {
+  background-color: green;
+}
+
+.neutralFeedbackBtn:hover {
+  background-color: gray;
+}
+
+.badFeedbackBtn:hover {
+  background-color: red;
+}
